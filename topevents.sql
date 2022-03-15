@@ -336,5 +336,3 @@ WHERE event_rank <= 5
 ORDER BY snap_id DESC)
 where rownum < 21
 ORDER BY snap_id, event_rank ASC;
-
-exit
